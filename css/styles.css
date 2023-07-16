@@ -1,0 +1,207 @@
+
+h1{
+     /* font-family: 'Montserrat', sans-serif; */
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+h1.h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+#title{
+    background-color: #050503;
+    color: white;
+    }
+    body{
+        font-family:'Montserrat', sans-serif ;
+    }
+    .navbar{
+        padding-bottom:0 0 4.5em;
+    }
+    .navbar-brand{
+        font-size: 2.5rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+       
+
+    }
+    .downloadbutton{
+        margin: 5% 3% 5% 0;
+    }
+    .navbar-nav{
+        padding-left: 250px;
+    }
+    .nav-item{
+        padding-left: 2%;
+        padding-right: 5%;
+    }
+    .nav-link{
+        font-size: 1.2rem;
+        font-family: 'Montserrat-light';
+    }
+    
+    .icon:hover{
+        color: #050503;
+    }
+    #features{
+        padding: 7% 15%;
+        background-color: #E9E9E9;
+        position:relative;
+        z-index: 1;
+    }
+    .featurebox{
+        text-align: center;
+        padding: 3%;
+    }
+    h3{
+        
+       
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    p{
+        color: #8f8f8f;
+    }
+    .icon{
+        color:#0b093f;
+        margin-bottom: 1.2rem;
+    }
+   #testimonials{
+  
+    text-align: center;
+    background-color: #0b093f;
+    color: #fff;
+   }
+   h2{
+    font-size: 3rem;
+
+    line-height: 1.5;
+   }
+   .trade{
+    width: 50%;
+    height: auto;
+    
+    margin: 20px;
+   }
+   #press{
+    background-color: #0b093f;
+    text-align: center;
+    padding-bottom: 3%;
+   }
+   .presslogo{
+    width: 15%;
+    margin: 20px 20px 50px;}
+    .carousel-item{
+        padding: 7% 15%;
+
+    }
+    #pricing{
+        padding: 100px;
+        text-align: center;
+        background-color: #0b093f;
+    }
+    .col{
+        padding: 3% 2%;
+    }
+   
+    .stock{
+        width: auto;
+        height: auto;
+    }
+   
+    
+      
+      
+      @media (max-width: 720px) {
+      
+        #title{
+      
+          text-align: center;
+      
+        }
+      
+        .titleimage{
+      
+        width: fit-content;
+        rotate: 0;
+        }
+        }
+        .titleimage{
+            width: 30%;
+            height: 45%;
+            
+            position:absolute;
+            right: 10%;
+            
+        }
+        #cta{
+            background-color:#0b093f;
+            padding: 80px 30px 80px 30px;
+            text-align: center;
+        }
+        .end{
+            color:#fff;
+            text-align: center;
+        }
+        #footer{
+            padding: 80px;
+            background-color:#0b093f;
+            text-align: center;
+            
+        }
+        .icons{
+            margin: 20px 10px;
+           
+        }
+
+        /* Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 30px;
+    margin: 5px 40px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+#services-container{
+text-align: center;
+margin-top: 70px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+.form{
+    
+    padding: 50px;
+}
+.el{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.5rem;
+}
+.contact{
+    text-align: center;
+}
+.submit{
+    padding-left: 500px;
+}
+.terms{
+    padding-left: 00px;
+}
